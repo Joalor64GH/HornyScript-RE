@@ -5,14 +5,12 @@ import flixel.util.FlxColor;
 /*
 * @author: YoshiCrafter29
 */
-class FlxColorHScript {
+class FlxColorHScript 
+{
     var fc:FlxColor;
-
     
     public var color(get, null):Int;
-    public function get_color():Int {
-        return fc;
-    }
+    public function get_color():Int {return fc;}
 
     public var alpha(get, set):Int;
     public function get_alpha():Int {return fc.alpha;}
@@ -112,9 +110,7 @@ class FlxColorHScript {
     public function toHexString(Alpha:Bool = true, Prefix:Bool = true) {return fc.toHexString(Alpha, Prefix);}
     public function toWebString() {return fc.toWebString();}
 
-    public function new(color:Int) {
-        fc = new FlxColor(color);
-    }
+    public function new(color:Int) {fc = new FlxColor(color);}
 
     public static inline final BLACK = 0xFF000000;
     public static inline final BLUE = 0xFF0000FF;
