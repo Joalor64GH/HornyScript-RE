@@ -15,7 +15,6 @@ import llua.State;
 import vm.lua.LuaVM;
 import vlc.VLCBitmap;
 import vlc.LibVLC;
-import horny.*;
 using StringTools;
 
 /*
@@ -74,7 +73,7 @@ class HornyScript extends FlxBasic {
 		setVariable('Type', Type);
 		setVariable('Xml', Xml);
 		setVariable('Globals', Globals);
-		setVariable('FlxColor', FlxColor);
+		setVariable('FlxColor', FlxColorHScript);
 		setVariable('HClass', HornyClass);
 		setVariable('HState', HornyState);
 		setVariable('HSubstate', HornySubstate);
