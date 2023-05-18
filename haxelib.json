@@ -4,14 +4,13 @@
     "license": "Apache-2.0",
     "tags": ["hscript"],
     "description": "It's just modified haxe script.",
-    "version": "1.1.1",
+    "version": "1.1.5",
     "classPath": "src/",
-    "releasenote": "Minor fixes, added a tutorial file.",
+    "releasenote": "Minor fixes, added a tutorial file and example project.",
     "contributors": ["Joalor64GH", "MemeHoovy"],
     "dependencies": {
       "hxvm-lua":"",
       "linc_luajit":"",
-      "hxvm-luajit":"",
       "hxCodec":""
     }
-  }
+}
