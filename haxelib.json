@@ -9,8 +9,8 @@
     "releasenote": "Minor fixes and such.",
     "contributors": ["Joalor64GH", "MemeHoovy"],
     "dependencies": {
-      "linc_luajit":"",
-      "hxvm_luajit":"",
+      "hxvm-lua":"",
+      "hxvm-luajit":"",
       "hxCodec":""
     }
   }
