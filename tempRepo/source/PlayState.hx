@@ -19,8 +19,8 @@ class PlayState extends FlxState
 		catch (e)
 		{
 			var errText:FlxText = new FlxText(0, 0, 0, "Oops! There was an error with the script!" + "\n" + e.message, 64);
-        	errText.screenCenter();
-        	add(errText);
+        		errText.screenCenter();
+        		add(errText);
 		}
 
 		var coolText:FlxText = new FlxText(5, FlxG.height - 44, 0, "Hello World", 22);
