@@ -4,7 +4,7 @@ import hscript.Interp;
 import hscript.Parser;
 import openfl.Lib;
 import flixel.FlxBasic;
-import flixel.util.FlxColor;
+import flixel.util.FlxColorHScript;
 import llua.Buffer;
 import llua.Convert;
 import llua.Lua;

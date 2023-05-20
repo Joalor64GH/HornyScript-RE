@@ -9,8 +9,6 @@
     "releasenote": "Minor fixes, added a tutorial file and example project.",
     "contributors": ["Joalor64GH", "MemeHoovy"],
     "dependencies": {
-      "hxvm-lua":"",
-      "linc_luajit":"",
-      "hxCodec":""
+      
     }
 }
