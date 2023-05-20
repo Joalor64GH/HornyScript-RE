@@ -1,7 +1,7 @@
 # HornyScript: Remaster
 HornyScript is basically modified Hscript.
 
-It's also compatible with hxCodec (optional), linc_luajit, and hxvm-lua/luajit.
+It's also compatible with hxCodec (optional), linc_luajit, and hxvm-luajit.
 
 # Installation
 Add this to your `Project.xml`:
